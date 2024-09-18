@@ -16,18 +16,18 @@ b. Display the first five and last five rows of the resulting cars.
 ## Code:
 
     import pandas as pd
-
+        
     #Load the .csv file into a DataFrame named cars
-    url = "http://bit.ly/Cars_file"  # URL of the CSV file
-    cars = pd.read_csv(url)
-    
+            url = "http://bit.ly/Cars_file"  # URL of the CSV file
+            cars = pd.read_csv(url)
+            
     #Display the first five rows
-    print("First five rows:")
-    print(cars.head())
-    
+            print("First five rows:")
+            print(cars.head())
+            
     #Display the last five rows
-    print("\nLast five rows:")
-    print(cars.tail())
+            print("\nLast five rows:")
+            print(cars.tail())
 
 
 ## Problem 2:
